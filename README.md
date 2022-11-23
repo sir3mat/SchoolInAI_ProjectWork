@@ -1,15 +1,22 @@
 # School in AI Project Work
 
-This repository contains the code to train and evaluate a pedestrian detector for
-the "School in Ai 2° edition"[@UNIMORE](https://aischools.it/)
-![alt text](http://www.aiacademy.unimore.it/media/news/ai-logo-white_2ND_EDITION.png)
+<br />
+<div align="center">
+  <a href="https://aischools.it/">
+    <img src="http://www.aiacademy.unimore.it/media/news/ai-logo-white_2ND_EDITION.png" alt="Logo" >
+  </a>
+  <h1 align="center">Domain shift adaption on pedestrian detection with Faster R-CNN</h3>
+  <h3 align="center">
+    This repository contains the code of the "School in AI: Deep Learning, Vision and Language for Industry - second edition" final project work by Matteo Sirri.
+  </p>
+</div>
+
 
 ## Demo Links
 
 |                                                                    Google Colab Demo                                                                    |                                                                       Huggingface Demo                                                                        |                                                    Report                                                     |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KQqmPANWiLqAJH0yZN1UV_FVqnzPrurw) | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/sir3mat/SchoolInAiProjectWork) | [Report](https://docs.google.com/document/d/1U0yEuGx5wJ8xkZUpdMQS59XM9V7IidX-vzX9bOh6iEM/edit?usp=share_link) |
-
+| [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" width="500"/>](https://colab.research.google.com/drive/1KQqmPANWiLqAJH0yZN1UV_FVqnzPrurw) | [<img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face Spaces" width="620"/>](https://huggingface.co/spaces/sir3mat/SchoolInAiProjectWork) | [<img src="https://img.shields.io/badge/Report-Download-Blue?style=flat&color=informational" width="500"/>](https://docs.google.com/document/d/1U0yEuGx5wJ8xkZUpdMQS59XM9V7IidX-vzX9bOh6iEM/edit?usp=share_link) |
 - Integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio).
 
 ## Installation
@@ -103,11 +110,6 @@ storage
     ├── pretrained_models
 ```
 
-## Colab Usage
-
-You can also use [Google Colab](https://colab.research.google.com) if you need remote resources like GPUs.
-In the notebook folder you can find some useful .ipynb files and remember to load all the storage folder in your GDrive before usage (N.B. you need at least 150/200GB).
-
 ## Object Detection
 
 An adaption of torchvision's detection reference code is done to train Faster R-CNN on a portion of the MOTSynth dataset.
@@ -135,3 +137,8 @@ An adaption of torchvision's detection reference code is done to train Faster R-
 ```
 ./scripts/inference_detector.sh
 ```
+
+## Contact
+
+Matteo Sirri - matteosirri99@gmail.com
+
