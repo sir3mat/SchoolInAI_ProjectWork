@@ -5,7 +5,7 @@
   <a href="https://aischools.it/">
     <img src="http://www.aiacademy.unimore.it/media/news/ai-logo-white_2ND_EDITION.png" alt="Logo" >
   </a>
-  <h1 align="center">Domain shift adaption on pedestrian detection with Faster R-CNN</h3>
+  <h1 align="center">Domain adaption on pedestrian detection with Faster R-CNN</h3>
   <h3 align="center">
     This repository contains the code of the "School in AI: Deep Learning, Vision and Language for Industry - second edition" final project work by Matteo Sirri.
   </p>
